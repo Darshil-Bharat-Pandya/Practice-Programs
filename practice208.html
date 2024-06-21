@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice208</title>
+    <style>
+        body{
+            background-color: whitesmoke;
+            color: green;
+            text-align: center;
+        }
+
+        p::selection{
+            color: red;
+            background-color: green;
+            font-size: 30px;
+        }
+
+        span::selection{
+            color: green;
+            background-color: red;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+<!-- CSS ::selection Pseudo-element = It applies styles to the part of a document that has been highlighted by the user such as clicking and dragging the mouse across the text. -->
+
+    <h1>Geeks For Geeks</h1>
+    <h2>::selection element</h2>
+
+    <p>
+        Content in this paragraph turns red with green background on selection.
+    </p>
+
+    <span>
+        As this is not a paragraph, you can notice red background and green text on selection.
+    </span>
+</body>
+</html>

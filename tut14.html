@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+
+        /* Element Selector */
+        p{
+            border: 2px solid red;
+        }
+
+        /* ID Selector */
+        #firstPara{
+           color: green; 
+        }
+        
+        /* Class Selector */
+        .bgBlue{
+            color: yellow;
+            background-color: blue;
+        }
+
+        /* Grouping Selector */
+        footer, span{
+            background-color: pink;
+        }
+    </style>
+    <!-- To select the elements with a specific ID, write the (#)character, followed by ID name. -->
+
+    <!-- To select the elements with a specific class, write the (.)character, followed by class name. -->
+    
+</head>
+<body>
+    <h3>CSS Selectors</h3>
+    <p id="firstPara">This is a simple paragraph to demonstrate CSS selectors</p>
+    <p id="secondPara" class="redElement bgBlue" >This is an another simple paragraph to demonstrate CSS selectors</p>
+    <span>This is a span</span>
+    <div>
+        <p>
+            This is yet another simple paragraph inside div to demonstrate CSS selectors
+            <footer>This is a footer</footer>
+        </p>
+    </div>
+</body>
+</html>
