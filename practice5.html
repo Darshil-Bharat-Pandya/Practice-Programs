@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice-5</title>
+  </head>
+  <body>
+    <h1>Employee Registration Form</h1>
+
+    <form action="backend.php">
+      <label for="Name">Name: </label>
+      <div>
+        <input type="text" name="myName" id="Name" />
+      </div>
+      <br />
+      <label for="Designation">Designation: </label>
+      <div>
+        <input type="text" name="myDesignation" id="Designation" />
+      </div>
+      <br />
+      <label for="Identity Number">Identity Number: </label>
+      <div>
+        <input type="number" name="myIdentity Number" id="Identity Number" />
+      </div>
+      <br />
+      <label for="Contact Number">Contact Number: </label>
+      <div>
+        <input type="number" name="myContact Number" id="Contact Number" />
+      </div>
+      <br />
+      <label for="Gender">Gender:</label>
+      <div>
+        Male <input type="radio" name="myGender" id="Gender" /> Female
+        <input type="radio" name="myGender" id="Gender" /> Other
+        <input type="radio" name="myGender" id="Gender" />
+      </div>
+      <br />
+      <label for="Salary">Salary: </label>
+      <div>
+        <input type="number" name="mySalary" id="Salary" />
+      </div>
+      <br />
+      <label for="Are You Eligible for Promotion ?"
+        >Are You Eligible for Promotion ?</label
+      >
+      <div>
+        <input
+          type="checkbox"
+          name="myAre You Eligible for Promotion ?"
+          id="Are You Eligible for Promotion ?"
+          checked
+        />
+      </div>
+      <br />
+      <label for="Date">Date: </label>
+      <div>
+        <input type="Date" name="myDate" id="Date" />
+      </div>
+      <br />
+      <label for="Email">Email: </label>
+      <div>
+        <input type="email" name="myEmail" id="Email" />
+      </div>
+      <br />
+      <label for="Employee's Password">Employee's Password: </label>
+      <div>
+        <input
+          type="password"
+          name="myEmployee's Password"
+          id="Employee's Password"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="Role">Role: </label>
+        <select name="myRole" id="Role">
+          <option value="Software Engineer" selected>Software Engineer</option>
+          <option value="UI/UX Designer">UI/UX Designer</option>
+          <option value="Product Manager">Product Manager</option>
+          <option value="Data Scientist">Data Scientist</option>
+          <option value="HR Manager">HR Manager</option>
+        </select>
+      </div>
+      <br />
+      <label for="Write your Feedback Regarding company"
+        >Write your Feedback Regarding company</label
+      >
+      <div>
+        <textarea
+          name="myWrite your Feedback Regarding company"
+          id="Write your Feedback Regarding company"
+          cols="70"
+          rows="10"
+        ></textarea>
+      </div>
+      <br />
+      <div>
+        <input type="submit" value="Submit Now" />
+        <input type="reset" value="Reset Now" />
+      </div>
+    </form>
+  </body>
+</html>
